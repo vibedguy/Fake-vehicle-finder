@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./cssp.css" type="text/css">
+        <title>Fake Vehicles Identifier</title>
+        <style>
+            .button {
+              background-color: #4CAF50; 
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+            .button1 {width: 150px;}
+            </style>
+    </head>
+    <body>
+        <center>
+            <div>
+            <img class="size" src="TamilNadu.png" width="10%" height="25%">
+        </div>
+        </center>
+        <div><center> <img src="police.png" width="15%" height="35%" alt="not found"></center></div>
+        
+        <center>
+            <h1 id="a">Fake Vehicles Identifier </h1>
+        <div id ="menu">
+            
+              <ul>
+                <li><a href="about page.html">ABOUT</a></li>
+                <li><a href="verification.html">VERIFICATION</a></li>
+                <li><a href="complaint.html">COMPLAINT</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+              </ul>
+        </DIV>
+        
+    
+        <form action="verify.php" method="post">
+            <br><br>
+            <label>Registration No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+            <input type="text" name="reg_no1" class="form-control" required><br><br>
+            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chassis No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>&nbsp;
+            <input type="text" name="ch_no1" class="form-control" required><br><br>
+            <label>&nbsp;&nbsp;&nbsp;&nbsp;Engine No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+            <input type="text" name="eng_no1" class="form-control" required><br>
+            <br>
+            <label>Vehicle Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="v_type1" required id="Vehicle Type">
+            <option label="Select Here">Select Here</option>    
+            <option label="Two Wheeler">Two wheeler</option>
+            <option label="Three Wheeler">Three wheeler</option>
+            <option label="Four Wheeler">Four wheeler</option>
+            <option label="Bus">Bus</option>
+            <option label="Van">Van</option>
+            <option label="Goods Carrier">Goods Carrier</option>
+            </select>
+            <br><br>
+            <button class="button button1">Verify</button><br>
+        </form>
+        </center>
+    
+    </body>
+</html>

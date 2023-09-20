@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="cssp.css">
+    <title>COMPLAINT</title>
+    <style>
+        .button {
+          background-color: #4CAF50; 
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        .button1 {width: 150px;}
+        </style>
+</head>
+
+<body id="body">
+    <center>
+        <div>
+        <img class="size" src="TamilNadu.png" width="10%" height="25%">
+    </center>
+    <div><center> <img src="police.png" width="15%" height="35%" alt="not found"></center></div>
+    
+    <center>
+        <h1 id="a">Fake Vehicles Identifier</h1>
+        <div id ="menu">
+            
+            <ul>
+              <li><a href="about page.html">ABOUT</a></li>
+              <li><a href="verification.html">VERIFICATION</a></li>
+              <li><a href="complaint.html">COMPLAINT</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+      </DIV>
+</body>
+<form action="comp.php" method="post" id="comp">
+    <br>
+    <br>
+    <label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label><input type="text" id="demo" name="loc" required>
+    <br>
+    <br>
+    <label>Phone No&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label><input type="tel" size="10" name="ph_no" required>
+    <br>
+    <br>
+    <label>&nbsp;&nbsp;&nbsp;Type of Vehicle&nbsp;&nbsp;&nbsp;:</label>
+    &nbsp;
+    <select required class="drop" name="v_type" required>
+        <option value="select">select</option>
+        <option value="two">two wheeler</option>
+        <option value="three">Three Wheeler</option>
+        <option value="four">Four Wheeler</option>
+        <option value="bus">Bus & Van</option>
+        <option value="goods">Goods Carrier</option>
+    </select>
+    <br>
+    <br>
+    <label>Colour of Vehicle&nbsp;&nbsp;:&nbsp;&nbsp;</label><input type="text" name="c_vech">
+    <br>
+    <br>
+    <label>Registration No&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label><input type="text" name="reg_no" required>
+    <br>
+    <br>
+    <label>Area&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label><input type="text" name="area" required>
+    <br>
+    <br>
+    
+    <br>
+    <button class="button button1" value="save">Submit</button><br>
+</form>
+</center>
+</body>
+
+</html>

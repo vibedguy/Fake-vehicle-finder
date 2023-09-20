@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTO REGISTRATION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="container col-12 bg-black" >
+    <center>
+<h1 align="center" style="color:aliceblue">ROAD TRANSPORT OFFICE REGISTRATION</h1>
+<br>
+<br>
+    <form class="container col-5" style="color:white" action="vehicle.php"  method="post">
+        <fieldset >
+        Registration No:<input type="text" name="reg_no" class="form-control" required>
+        <br>
+        <br>
+        Chassie No:<input type="text" name="ch_no" class="form-control" required>
+        <br>
+        <br>
+        Engine No:<input type="text" name="eng_no" class="form-control" required>
+        <br>
+        <br>
+        Aadhar No:<input type="text" name="ad_no" class="form-control" required>
+        <br>
+        <br>
+        Name:<input type="text" name="name"  class="form-control" required>
+        <br>
+        <br>
+        Phone No:<input type="tel" name="ph_no" class="form-control" required>
+        <br>
+        <br>
+        Address: <textarea resize="none" name="address" class="form-control" required></textarea>
+        <br>
+        <br>
+        Type of Vehicle:
+        <br>
+        <select name="v_type" required>
+            <option value="select">select</option>
+            <option value="two">two wheeler</option>
+            <option value="three">Three Wheeler</option>
+            <option value="four">Four Wheeler</option>
+            <option value="bus">Bus & Van</option>
+            <option value="goods">Goods Carrier</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <input type="submit" class="btn btn-primary" name="submit" value="save">
+    </fieldset>
+    </form>
+</center>
+<br>
+<hr>
+<div class="container-fluid">
+<footer style="color:slategrey">
+    <p class="text-center">© 2023 -Road Transport Public Limited. All rights reserved.</p>
+</footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
